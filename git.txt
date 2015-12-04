@@ -20,3 +20,5 @@ git log命令显示从最近到最远的提交日志  --pretty=oneline
 git reset --hard HEAD^   回退到上一个版本
 
 git reflog查看命令历史，以便确定要回到未来的哪个版本。
+
+git checkout -- file可以丢弃工作区的修改
