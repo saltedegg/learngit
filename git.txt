@@ -1,0 +1,7 @@
+find . -name ".git" | xargs rm -Rf --删除仓库
+
+msysgit是Windows版的Git，从http://msysgit.github.io/下载，然后按默认选项安装即可。
+
+安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
